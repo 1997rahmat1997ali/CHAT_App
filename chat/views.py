@@ -13,7 +13,8 @@ def room(request, room):
     return render(request, 'room.html', {
         'username': username,
         'room': room,
-        'room_details': room_details
+        'room_details': room_details,
+        'link':  'http://127.0.0.1:8000/'
     })
 
 def checkview(request):    # sourcery skip: remove-unnecessary-else
