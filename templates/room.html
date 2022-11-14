@@ -56,16 +56,8 @@ body {
 </head>
 <body>
 
-<h2>{{room}} - DjChat</h2>
+<h2>{{room}}-Chat</h2>
 
-<div id="display">
-
-<!-- <div class="container darker">
-  <b>Tom</b><p>Hello Everyone, How Are You Guys Doing?</p>
-  <span class="time-left">20th, April 2021</span>
-</div> -->
-
-</div>
 
 <script>
 $(document).ready(function(){
@@ -106,7 +98,7 @@ setInterval(function(){
 
     input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #4571a0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -116,7 +108,7 @@ setInterval(function(){
     }
 
     input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4CAF50;
     }
 
     div {
@@ -133,6 +125,9 @@ setInterval(function(){
         <input type="text" name="message" id="message" width="100px" />
         <input type="submit" value="Send">
     </form>
+    <br/>
+        <a href="{{link}}"><input type="submit" value="home"><a/>
+    <!--  <a href="{{link}}">Home</a>   -->
 </div>
 
 
